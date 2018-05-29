@@ -28,4 +28,6 @@ puts "Would you like to play again? : y/n"
 input = gets.strip
 if input == "y"
   start
+else
+  puts "bye"
 end
