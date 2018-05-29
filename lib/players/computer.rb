@@ -26,8 +26,6 @@ module Players
       input
     end
 
-    if board.taken?(input)
-      best_moves = ["5","6","4","2","1","3","8","9","7"]
-      best_moves.each{|a| input = a}
+    
   end
 end
