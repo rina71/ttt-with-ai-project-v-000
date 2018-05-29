@@ -27,7 +27,7 @@ end
 puts "Would you like to play again? : y/n"
 input = gets.strip
   if input == "y"
-    start
+    Game.new.start
   else
     puts "bye"
   end
