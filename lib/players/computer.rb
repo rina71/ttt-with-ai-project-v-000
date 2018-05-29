@@ -20,9 +20,10 @@ module Players
       input = " "
       until board.valid_move?(input)
       #   input = "#{a.rand(1..9)}"
-      if board.cells[0] == board.cells[1] && board.valid_move?(input)
+      if board.cells[0] == board.cells[1]
         input = board.cells[2]
-      if board.cells[3] == board.cells[4] && board.valid_move?(input)
+      end
+      if board.cells[3] == board.cells[4]
         input = board.cells[5]
       else
         # best_moves = ["8","1","6","4","3","9","2","7","5"]
