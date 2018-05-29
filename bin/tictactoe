@@ -30,4 +30,4 @@ input = gets.strip
     start
   else
     puts "bye"
-end
+  end
