@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require_relative '../config/environment'
-
+start
 def start
 puts "Welcome to Tic-tac-toe"
 puts "Choose your player: 0 player mode,1 player mode, or 2 player mode"
@@ -23,6 +23,7 @@ if input == "2"
 
 end
 end
+
 puts "Would you like to play again? : y/n"
 input = gets.strip
 if input == "y"
