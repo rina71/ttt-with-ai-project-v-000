@@ -45,9 +45,9 @@ class Game
   end
 
   def winner
-    if self.board.cells.count("X") > self.board.cells.count("O")
+    if self.board.cells.count("X") > self.board.cells.count("O") && current_player = "X"
       "X"
-    elsif self.board.cells.count("X") < self.board.cells.count("O")
+    elsif self.board.cells.count("X") < self.board.cells.count("O") && current_player = "O"
       "O"
     else
       nil
