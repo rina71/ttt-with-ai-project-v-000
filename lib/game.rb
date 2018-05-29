@@ -49,8 +49,6 @@ class Game
       "X"
     elsif self.board.cells.count("X") < self.board.cells.count("O")
       "O"
-    elsif self.board.cells.count("X") == self.board.cells.count("O")
-      "O"
     else
       nil
     end
