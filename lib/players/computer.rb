@@ -25,11 +25,11 @@ module Players
       elsif board.cells[3] == board.cells[4] && board.valid_move?(input)
         input = board.cells[5]
       else
-        best_moves = ["8","1","6","4","3","9","2","7","5"]
-        # input = " "
-        best_moves.each{|a| if board.valid_move?(a)
-           input = a
-         end}
+        # best_moves = ["8","1","6","4","3","9","2","7","5"]
+        # # input = " "
+        # best_moves.each{|a| if board.valid_move?(a)
+        #    input = a
+        #  end}
        end
       # end
       input
