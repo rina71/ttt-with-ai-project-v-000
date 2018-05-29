@@ -16,12 +16,15 @@ module Players
     end
 
     def move(board)
-      a = Random.new
-      input = " "
-      until board.valid_move?(input)
-        input = "#{a.rand(1..9)}"
-        # best_moves = ["5","6","4","2","1","3","8","9","7"]
-        # best_moves.each{|a| input = a}
+      # a = Random.new
+      # input = " "
+      # until board.valid_move?(input)
+      #   input = "#{a.rand(1..9)}"
+        best_moves = ["5","6","4","2","1","3","8","9","7"]
+        input = " "
+        best_moves.each{|a| if board.valid_move?(a)
+           input = a
+         end}
       end
       input
     end
