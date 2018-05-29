@@ -19,7 +19,7 @@ module Players
       a = Random.new
       input = " "
       until board.valid_move?(input)
-        input = "#{a.rand(1..9)}"
+        # input = "#{a.rand(1..9)}"
       end
       input
     end
