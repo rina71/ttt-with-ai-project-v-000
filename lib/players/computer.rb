@@ -24,7 +24,7 @@ module Players
 
 
         best_moves = ["8","1","6","4","3","9","2","7","5"]
-        # input = " "
+        input = " "
         best_moves.each{|a| if board.valid_move?(a)
            input = a
          end}
