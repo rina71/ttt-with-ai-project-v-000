@@ -19,13 +19,13 @@ module Players
       a = Random.new
       input = " "
       until board.valid_move?(input)
-        # input = "#{a.rand(1..9)}"
+        input = "#{a.rand(1..9)}"
         # best_moves = ["5","6","4","2","1","3","8","9","7"]
         # best_moves.each{|a| input = a}
       end
       input
     end
 
-    
+
   end
 end
