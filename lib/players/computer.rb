@@ -25,7 +25,7 @@ module Players
         best_moves.each{|a| if board.valid_move?(a)
            input = a
          end}
-      end
+      # end
       input
     end
 
