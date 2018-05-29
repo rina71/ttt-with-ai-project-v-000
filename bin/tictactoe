@@ -23,7 +23,7 @@ if input == "1"
 
   end
 
-
+end
 puts "Would you like to play again? : y/n"
 input = gets.strip
   if input == "y"
