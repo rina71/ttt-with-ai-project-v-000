@@ -77,7 +77,7 @@ class Game
       puts "Choose your player: 0 player mode,1 player mode, or 2 player mode"
       input = gets.strip
       if input == "0 player mode"
-        Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"), board = Board.new)
+        Game.new(player_1 = Players::Computer.new("X"), player_2 = Players::Computer.new("O"), board = Board.new).play
       end
       if input == "1 player mode"
           puts "Who wants to go first:player_1, player_2"
