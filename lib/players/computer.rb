@@ -20,7 +20,7 @@ module Players
       # input = " "
       # until board.valid_move?(input)
       #   input = "#{a.rand(1..9)}"
-        best_moves = ["8","2","1","3","4","9","7","6","5"]
+        best_moves = ["8","2","6","4","3","9","1","7","5"]
         input = " "
         best_moves.each{|a| if board.valid_move?(a)
            input = a
