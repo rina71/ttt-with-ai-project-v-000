@@ -16,7 +16,7 @@ module Players
     end
 
     def move(board)
-      # a = Random.new
+      a = Random.new
       input = " "
       until board.valid_move?(input)
         input = "#{a.rand(1..9)}"
