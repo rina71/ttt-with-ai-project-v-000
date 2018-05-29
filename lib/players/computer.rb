@@ -19,13 +19,13 @@ module Players
       # a = Random.new
       input = " "
       until board.valid_move?(input)
-      #   input = "#{a.rand(1..9)}"
+        input = "#{a.rand(1..9)}"
       if board.cells[0] == board.cells[1]
         input = board.cells[2]
-      
+
       if board.cells[3] == board.cells[4]
         input = board.cells[5]
-      
+
       if board.cells[6] == board.cells[7]
         input = board.cells[8]
       end
