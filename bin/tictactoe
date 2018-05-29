@@ -2,7 +2,7 @@
 
 require_relative '../config/environment'
 
-
+def start
 puts "Welcome to Tic-tac-toe"
 puts "Choose your player: 0 player mode,1 player mode, or 2 player mode"
 input = gets.strip
