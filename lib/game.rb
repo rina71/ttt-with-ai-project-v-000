@@ -45,12 +45,12 @@ class Game
   end
 
   def winner
-    if self.board.cells.count("X") > self.board.cells.count("O") && current_player.token = "X"
+    if self.board.cells.count("X") > self.board.cells.count("O")
       "X"
-    elsif self.board.cells.count("X") < self.board.cells.count("O") && current_player.token = "O"
+    elsif self.board.cells.count("X") < self.board.cells.count("O")
       "O"
     else
-      nil
+      "O"
     end
   end
 
