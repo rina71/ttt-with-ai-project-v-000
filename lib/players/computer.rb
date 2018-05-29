@@ -29,7 +29,7 @@ module Players
       if board.cells[6] == board.cells[7]
         input = board.cells[8]
       end
-      else
+      
         # best_moves = ["8","1","6","4","3","9","2","7","5"]
         # # input = " "
         # best_moves.each{|a| if board.valid_move?(a)
